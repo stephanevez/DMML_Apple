@@ -14,8 +14,19 @@ During the whole duration of this project, we were able to sumbmit the predictio
 
 Under this section, you will find some information about how we proceeded during the project.
 
-* Week 1
-* Week 2
+1. Week 1
+* Github preparation
+* Creation of our notebook
+* First discovery
+2. Week 2
+* EDA
+* First Submissions
+* Reach score of 0.8134
+3. Week 3
+* Data Cleaning
+* Hyperparameters tunning for LogReg
+4. Week 4
+* TF-IDF parameters tunning
 
 
 ## 🕵️ Solution
