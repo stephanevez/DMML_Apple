@@ -4,13 +4,23 @@ This team is composed of Mael Maceiras, Stéphane Vez and Pierre Huber.
 
 ## 🔍 Project description
 For the class "Data Mining & Machine Learning", which is part of our Master's programm in Information System, we were giving the following challenge:
+
 *Real or Not? NLP with Disaster Tweets: In this project, you are challenged to build a Machine Learning model that can predict which tweets are about a real disaster and which are not. The project topic is based around a Kaggle competition.*
 
 During the whole duration of this project, we were able to sumbmit the predictions of our model on a dedicated platform, AiCrowd. After that, it was possible to  compare our results with our pairs.
 
+
+## 📅 Agenda
+
+Under this section, you will find some information about how we proceeded during the project.
+
+* Week 1
+* Week 2
+
+
 ## 🕵️ Solution
 
-The solution that gave us the best accuracy was a solution using the classifier method, Logistic Regression CV with a vectorizer TF-IDF. 
+The solution that gave us the best accuracy was a solution using the classifier LogisticRegressionCV with a vectorizer TF-IDF. 
 We reached an **accuracy score of 0.813**. We have to admit that this result was somehow disappointing as we tried many different classifiers with different parameters. However these efforts were not successful.
 
 In the table below, it is possible to have an overview of our different tries. We can see that the **submission 6** was our winning submission.
