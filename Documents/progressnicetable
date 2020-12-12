@@ -1,3 +1,4 @@
+
 |Sub | Classifier | Tokenizer + details | test2 accuracy | score |
 |--- | --- | --- | --- | --- |
 |1 | LogReg(max_iter=1000) | TF-IDF default | 0.806 | 0.806 |
