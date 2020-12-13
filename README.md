@@ -1,5 +1,5 @@
 
-# Welcome to the Github of the **Team Apple**
+# Welcome to the Github of the **🍏Team Apple🍏**
 This team is composed of Mael Maceiras, Stéphane Vez and Pierre Huber.
 
 ## 🔍 Project description
@@ -9,6 +9,24 @@ For the class "Data Mining & Machine Learning", which is part of our Master's pr
 
 During the whole duration of this project, we were able to submit the predictions of our model on a dedicated platform, AiCrowd. After that, it was possible to  compare our results with our pairs.
 
+## 🦮 Guidance
+
+Our repository is organised in 3 folders.
+* Documents
+* Code
+* Data
+
+### Documents
+Under this folder, you will find additional docs in relation with this project.
+
+### Code
+This folder stores our different Notebooks we developped during this challenge. We decided to separe our code in different Notebooks in order to improve the readability and speed of excecution.
+* Apple_FinalSub.ipynb : contains our model with the best accuracy.
+* Apple_EDAandProcessing.ipynb : contains everything related to our EDA as well as the preprocessing of the data. From this notebook results a new dataset "training_preprocessed".
+* Apple_Results.ipynb : contains all the different tries and submissions we did during this challenge.
+
+### Data
+In the folder "Data", you can find the data that was provided for this challenge as well as our dataset "training_preprocessed".
 
 ## 📅 Agenda
 
@@ -27,7 +45,7 @@ Under this section, you will find some information about how we proceeded during
 * Hyperparameters tunning for LogReg
 4. Week 4
 * TF-IDF parameters tunning
-
+* Final preparations
 
 ## 🕵️ Solution
 
@@ -62,7 +80,6 @@ Sub | Classifier | Tokenizer + details | test2 accuracy | score
 
 Here is the link to our video explaning the different steps we took for our project. Feel free to reach out if you would like any details.
 
-In the readme.md you should a) mention the team name, b) describe the project c) your solution, and some results (using figures). d) include also a link to the video that showcases your solution.
 
  
 
