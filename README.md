@@ -31,7 +31,7 @@ Under this section, you will find some information about how we proceeded during
 
 ## 🕵️ Solution
 
-The solution that gave us the best accuracy was a solution using the classifier LogisticRegressionCV with a vectorizer TF-IDF. 
+The solution that gave us the best accuracy was a solution using the classifier LogisticRegressionCV (CV = 5, max_iter = 1000) with a vectorizer TF-IDF (default parameters). 
 We reached an **accuracy score of 0.813**. We have to admit that this result was somehow disappointing as we tried many different classifiers with different parameters. However these efforts were not successful.
 
 In the table below, it is possible to have an overview of our different tries. We can see that the **submission 6** was our winning submission.
