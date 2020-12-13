@@ -61,7 +61,7 @@ Sub | Classifier | Tokenizer + details | test_split accuracy | score
 3 | LogReg(max_iter=1000) | TF-IDF default, Tokenizer = SimplePreprocess | 0.793 | 0.7819
 4 | LogRegCV(cv=5, max_iter=1000) | Tokenizer = SimplePreprocess | ? | 0.7224
 5 | LogRegCV(cv=5, max_iter=1000) | Tokenizer = SimplePreprocess, duplicates dropped | ? | 0.7863
-6 | LogRegCV(cv=5, max_iter=1000) | TF-IDF default, Simle Tokenizer | x | 0.813
+6 | LogRegCV(cv=5, max_iter=1000) | TF-IDF default, Simple Tokenizer | x | 0.813
 7 | LogRegCV(cv=5, max_iter=1000) | TF-IDF default, Simple Tokenizer, Resampled | ? | 0.800
 8 | RandomForestClassifier | TF-IDF default, Simple Tokenizer | 0.775 | 0.799
 9 | RandomForestClassifier | TF-IDF default, Simple Toenizer, Resampled | ? | 0.800
@@ -71,9 +71,9 @@ Sub | Classifier | Tokenizer + details | test_split accuracy | score
 13 | LogReg(max_iter=10000)| TF-IDF default, merge keywords-tokens, hyperparams tuning: C=1.206792| x | 0.801
 14 | LogReg(max_iter=10000)| TF-IDF default, merge keywords-tokens, hyperparams tuning: C=1.7575 | x | 0.8091
 15 | LogReg(max_iter=10000)| TF-IDF default, hyperparams tuning: C=1.7575 | x | 0.8126
-16 | LogReg(max_iter=10000)| TF-IDF default, hyperparams tuning: C=1.7575 | x | 0.8126
-17 | LogReg(max_iter=10000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=1.0)), C=1.206 | 0.807 | 0.8091
-18 | LogReg(max_iter=10000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=4.0)), C=1.206, merge keywords-tokens | x | 0.8038
+16 | LogReg(max_iter=1000)| TF-IDF default, hyperparams tuning: C=1.7575 | x | 0.8126
+17 | LogReg(max_iter=1000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=1.0)), C=1.206 | 0.807 | 0.8091
+18 | LogReg(max_iter=1000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=4.0)), C=1.206, merge keywords-tokens | x | 0.8038
 19 | KNN | K = 5 |  | 0.8038
 
 ## 📽️ Video
