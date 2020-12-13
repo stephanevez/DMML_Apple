@@ -7,7 +7,7 @@ For the class "Data Mining & Machine Learning", which is part of our Master's pr
 
 *Real or Not? NLP with Disaster Tweets: In this project, you are challenged to build a Machine Learning model that can predict which tweets are about a real disaster and which are not. The project topic is based around a Kaggle competition.*
 
-During the whole duration of this project, we were able to sumbmit the predictions of our model on a dedicated platform, AiCrowd. After that, it was possible to  compare our results with our pairs.
+During the whole duration of this project, we were able to submit the predictions of our model on a dedicated platform, AiCrowd. After that, it was possible to  compare our results with our pairs.
 
 
 ## 📅 Agenda
