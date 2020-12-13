@@ -56,6 +56,7 @@ Sub | Classifier | Tokenizer + details | test2 accuracy | score
 16 | LogReg(max_iter=10000)| TF-IDF default, hyperparams tuning: C=1.7575 | ? | 0.8126
 17 | LogReg(max_iter=10000)| TF-IDF (ngram_range=(1, 3), min_df= 1, max_df=5.0)), C=1.206 | 0.807 | 0.8091
 18 | LogReg(max_iter=10000)| TF-IDF (ngram_range=(1, 3), min_df= 1, max_df=5.0)), C=1.206, merged 'keyword' + 'text' in test df |  | 0.8038
+19 | KNN | TF-IDF (ngram_range=(1, 3), min_df= 1, max_df=5.0)), C=1.206, merged 'keyword' + 'text' in test df |  | 0.8038
 
 ## 📽️ Video
 
