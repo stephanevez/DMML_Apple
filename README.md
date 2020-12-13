@@ -74,7 +74,7 @@ Sub | Classifier | Tokenizer + details | test_split accuracy | score
 16 | LogReg(max_iter=1000)| TF-IDF default, hyperparams tuning: C=1.7575 | x | 0.8126
 17 | LogReg(max_iter=1000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=1.0)), C=1.206 | 0.807 | 0.8091
 18 | LogReg(max_iter=1000)| TF-IDF params tunning (ngram_range=(1, 3), min_df= 1, max_df=4.0)), C=1.206, merge keywords-tokens | x | 0.8038
-19 | KNN | K = 5 |  | 0.8038
+19 | KNN | K = 5 |  | 0.6193
 
 ## 📽️ Video
 
